@@ -205,11 +205,11 @@ footer {
 
 
 /* Desktop */
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 102.4rem) {}
 
 
 /* tablet size  */
-@media screen and (min-width: 720px) and (max-width:1024px) {
+@media screen and (min-width: 72rem) and (max-width:102.4rem) {
     .logo {
         text-align: center;
     }
@@ -292,7 +292,7 @@ footer {
 }
 
 /* Large Mobile size */
-@media screen and (min-width: 540px) and (max-width:720px) {
+@media screen and (min-width: 54rem) and (max-width:72rem) {
     .logo {
         text-align: center;
     }
@@ -387,7 +387,7 @@ footer {
 }
 
 /* Small Mobile size */
-@media screen and (min-width: 360px) and (max-width:540px) {
+@media screen and (min-width: 36rem) and (max-width:54rem) {
     .logo {
         text-align: center;
     }
