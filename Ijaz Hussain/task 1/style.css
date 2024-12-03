@@ -158,7 +158,6 @@ article p {
 .author-section {
     display: flex;
     justify-content: center;
-    /*flex-basis: ;*/
     padding: 5rem 5rem;
     column-gap: 5rem;
     align-items: center;
@@ -205,11 +204,11 @@ footer {
 
 
 /* Desktop */
-@media screen and (min-width: 102.4rem) {}
+@media screen and (min-width: 1024px) {}
 
 
 /* tablet size  */
-@media screen and (min-width: 72rem) and (max-width:102.4rem) {
+@media screen and (min-width: 720px) and (max-width:1024px) {
     .logo {
         text-align: center;
     }
@@ -292,7 +291,7 @@ footer {
 }
 
 /* Large Mobile size */
-@media screen and (min-width: 54rem) and (max-width:72rem) {
+@media screen and (min-width: 540px) and (max-width:720px) {
     .logo {
         text-align: center;
     }
@@ -387,7 +386,7 @@ footer {
 }
 
 /* Small Mobile size */
-@media screen and (min-width: 36rem) and (max-width:54rem) {
+@media screen and (min-width: 360px) and (max-width:540px) {
     .logo {
         text-align: center;
     }
